@@ -1,12 +1,13 @@
 {
   "name": "jtop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple htop like tool for nodejs. It uses console-gui-tools to render the UI.",
   "main": "dist/jtop.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx tsc && node dist/jtop.js",
+    "prepare": "npm run build",
     "build": "npx tsc"
   },
   "files": [
