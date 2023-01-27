@@ -1,8 +1,9 @@
 {
   "name": "jtop",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "A simple htop like tool for nodejs. It uses console-gui-tools to render the UI.",
   "main": "./dist/index.js",
+  "bin": "./dist/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,6 +23,19 @@
   "bugs": {
       "url": "https://github.com/Elius94/jtop/issues"
   },
+  "keywords": [
+    "nodejs",
+    "htop",
+    "top",
+    "process",
+    "processes",
+    "process-list",
+    "process-listing",
+    "process-monitoring",
+    "process-monitor",
+    "process-manager",
+    "process-manager"
+  ],
   "homepage": "https://github.com/Elius94/jtop#readme",
   "dependencies": {
     "@types/lodash": "^4.14.191",
