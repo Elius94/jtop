@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import os from "node:os"
 import { 
     ConsoleManager, 
