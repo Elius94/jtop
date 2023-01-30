@@ -106,7 +106,7 @@ const Table = new Box({
     id: "table", 
     x: 0, 
     y: mem.absoluteValues.y + 3, 
-    width: 100, 
+    width: GUI.Screen.width, 
     height: 30,
 })
 
